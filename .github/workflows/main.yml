@@ -7,7 +7,7 @@ on:
    - main
 jobs:
   build_and_deploy: 
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-20.04
     name: Deploy
     steps:
       - uses: actions/checkout@v4
