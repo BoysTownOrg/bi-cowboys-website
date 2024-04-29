@@ -581,15 +581,18 @@ textarea:focus::placeholder{
 	height: 588px;
 }
 .banner-outer .slide1 {
-	background: url(../images/High-school-banner.jpg) no-repeat center top / cover;
+	background: url(../images/FamilyHome_banner.jpg) no-repeat center top / cover;
 }
 .banner-outer .slide2 {
-	background: url(../images/wegner-shool-banner.jpg) no-repeat center top / cover;
+	background: url(../images/High-school-banner.jpg) no-repeat center top / cover;
 }
 .banner-outer .slide3 {
-	background: url(../images/duncan-school-banner.jpg) no-repeat center top / cover;
+	background: url(../images/wegner-shool-banner.jpg) no-repeat center top / cover;
 }
 .banner-outer .slide4 {
+	background: url(../images/duncan-school-banner.jpg) no-repeat center top / cover;
+}
+.banner-outer .slide5 {
 	background: url(../images/rtc-banner.jpg) no-repeat center top / cover;
 }
 .banner-outer .content {
@@ -6882,6 +6885,14 @@ a.btn-circle:hover {
 
 /* Landscape phones and down */
 @media (max-width: 640px) {
+	.banner-outer .slide1, 
+.banner-outer .slide2, 
+.banner-outer .slide3,
+.banner-outer .slide4,
+.banner-outer .slide5 {
+	display: block;
+	height: 350px;
+}
 	
 	.banner-outer .content h1 span {
 		font-size: 50px;
@@ -7213,9 +7224,11 @@ a.btn-circle:hover {
 		font-size: 22px;
 		line-height: 34px;
 	}
-	.banner-outer .content h1 span, 
-    .banner-outer .slide2 .content h1, 
-    .banner-outer .slide2 .content h1 {
+.banner-outer .slide1 .content h1, 
+.banner-outer .slide2 .content h1,
+.banner-outer .slide3 .content h1,
+.banner-outer .slide4 .content h1,
+	.banner-outer .slide5 .content h1 {
 		font-size: 38px;
 		line-height: 40px;
 	}
